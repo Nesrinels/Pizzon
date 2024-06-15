@@ -81,6 +81,8 @@ button:hover{
         text-align: center;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
+    gap: 100px;
+    height: 500px;
 }
 .circle{
     img{
@@ -88,4 +90,5 @@ button:hover{
         height: 250px;
         width: 250px;
     }
+    
 }
