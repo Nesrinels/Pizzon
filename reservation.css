@@ -1,18 +1,68 @@
 .section{
-    max-width: 500px;
-    margin: auto;
+    /* max-width: 500px; */
+    margin-right: 50px
+    margin-left: 20px;
     background-color: pink;
     padding: 50px;
     border-radius: 25px;
     box-shadow: 30px 10px 30px palevioletred;
-    text-align: center;
+    text-align: right;
+    width: 700px;
 }
-/* body{
-    background-color: rgb(248, 227, 230);
-} */
+body{
+    /* background-color: rgb(248, 227, 230); */
+    margin-top: 200px;
+}
 *{
-background-color:rgb(248, 227, 230);
+/* background-color:rgb(248, 227, 230); */
 }
-h1:hover{
-    color: palevioletred;
+/* h1:hover{
+    color: #d87093;
+} */
+img{
+    height: 30px;
+    width: 30px;
+    background-color: transparent;
+}
+h3 {
+    font-family: "Playwrite US Trad", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    color: #93D870;
+  }
+  h1{
+        font-family: "Oswald", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+        color: #D88170
+  }
+  button{
+    color: ;
+    border-radius: 15px;
+    border-color:#93D870;
+    background-color:#D88170;
+    border-width: 5px;
+}
+button:hover{
+    color:;
+    border-color:#D88170 ;
+    background-color:#93D870 ;
+}
+img:hover{
+background-color: #93D870;
+}
+.sections{
+    display: flex;
+    justify-content: space-between ;
+}
+input{
+    width: 500px;
+}
+textarea{
+    width: 500px;
+}
+form{
+    align-content: center;
 }

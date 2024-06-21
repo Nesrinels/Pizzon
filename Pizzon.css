@@ -1,7 +1,8 @@
 body{
-    background-color: #333;
+    background-color: #2a2828;
 }
 header{
+    position: fixed;
     background-color: black;
     height: 50px;
     img{
@@ -21,7 +22,7 @@ nav a {
     color: white;
     padding: 14px 20px;
 }
-.banner{
+/* .banner{
     img{
         width: 1400px;
 
@@ -39,29 +40,34 @@ nav a {
         font-size: 30px;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-}
+} */
 .card{
-    img{
-        height: 100px;
-        width: 100px;
-    }
     text-align: center;
     max-width: 400px;
-    h2{
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    }
-    p{
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    }
     margin: auto;
+    background-color: orange;
 }
+.card img{
+    height: 100px;
+    width: 100px;
+    vertical-align: center;
+}
+.card h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
+}
+.card p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
 .cards{
 display: flex;
 background-color: orange;
 gap: 100px;
 height: 500px;
 }
-button{
+/* button{
     color: white;
     border-radius: 25px;
     height: 30px;
@@ -72,23 +78,93 @@ button:hover{
     color: orange;
     border-color: orange;
     background-color: white;
-}
+} */
 .circles{
-    background-color: white;
     display: flex;
-    h3{
+    justify-content: space-between;
+    height: 500px;
+    
+}
+.circles h3{
         color: orange;
         text-align: center;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    }
-    gap: 100px;
-    height: 500px;
 }
-.circle{
-    img{
+.circle img{
         border-radius: 100%;
-        height: 250px;
-        width: 250px;
-    }
-    
+        height: 300px;
+        width: 300px; 
+        text-align: center;
+        margin: 50px;
+        transition: transform .2s;
 }
+.circle img:hover{
+    transform: scale(1.2);
+}
+/* .circle{
+    transition: transform .2s;
+} */
+.circles h4{
+text-align: center;
+}
+    .circles h4:hover{
+color: orange;
+    }
+#hello{
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+    background-color: orange;
+    border: 3px solid orange;
+    font-size: 30px;
+}
+#hello:hover{
+    background-color: white;
+    color: orange;
+    border-color: orange;
+}
+.View{
+    text-align: center;
+    margin: 20px;
+}
+/* p{
+    color: #A64C38;
+    font-family: "Sofia", sans-serif;
+    font-size: 30px;
+    text-shadow: 3px 3px 3px #ababab;
+    text-transform: capitalize;
+    text-decoration: underline #0D0D0D double;
+    text-align: center;
+} */
+ /* #hi1{
+    height: 200px;
+    width: 200px;
+    padding: 5px;
+    border: 3px solid #ff00cc;
+    margin: 5px;
+
+ }
+ #hi2{
+    height: 200px;
+    width: 200px;
+    padding: 5px;
+    border: 3px solid #e41f43;
+    margin: 5px;
+ }
+ img{
+    display: block;
+ } */
+ .titles{
+   text-align: center; 
+ }
+ .titles h3{
+color: orange;
+font-family: "Playwrite US Trad", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+ }
+ .title h1{
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
